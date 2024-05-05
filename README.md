@@ -7,13 +7,15 @@ It enables configurable sizing of the Processing Element (PE) array, with the re
  denoted by coordinates (x, y), where x represents the row and y represents the column. Moreover, the system includes
 a host processor node positioned at the top-left corner with coordinates (0, 0).
 
-3. Configuration
+2. Configuration
+
 The "tlm_noc.h" file provides various configuration options, including parameters like row and column sizes, NoC bus width,
  router pipeline depth, system clock cycle, PE internal SRAM size, and L2 cache size, among others. These parameters enable
-customization and optimization of the TLM_NOC simulator to meet specific design requirements and constraints. For detailed
- configuration options, please refer to the "tlm_noc.h" file.
+customization and optimization of the TLM_NOC simulator to meet specific design requirements and constraints. For detailed configuration options, please refer to the "tlm_noc.h" file.
 
-5. Simulation
+
+4. Simulation
+   
 3.1. Clone the Git Project
 git clone https://github.com/mike-hls/systemc-tlm-noc.git
 
